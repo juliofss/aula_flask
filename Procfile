@@ -1,1 +1,1 @@
-web: gunicorn --pythonpatch com/faculdadeimpacta/calculadora app_web_start:app
+web gunicorn --pythonpatch com/faculdadeimpacta/calculadora app_web_start:app
